@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashtoscreens"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.salama.fragments.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_dashscreen12"
+            app:destination="@id/dashscreen1" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashscreen1"
+        android:name="com.example.salama.fragments.dashscreen1"
+        android:label="fragment_dashscreen1"
+        tools:layout="@layout/fragment_dashscreen1" />
+    <fragment
+        android:id="@+id/dashscreen2"
+        android:name="com.example.salama.fragments.dashscreen2"
+        android:label="fragment_dashscreen2"
+        tools:layout="@layout/fragment_dashscreen2" />
+    <fragment
+        android:id="@+id/dashscreen3"
+        android:name="com.example.salama.fragments.dashscreen3"
+        android:label="fragment_dashscreen3"
+        tools:layout="@layout/fragment_dashscreen3" />
+</navigation>

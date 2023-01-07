@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Salama</string>
+    <string name="app_nam">SALAMA</string>
+    <string name="powered_by_jacin">powered by Jacin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tagline1">Revolutionizing security</string>
+    <string name="coreValues">Its now happening 24 hour off premise monitoring from anywhere in the world. Catch it as it happens with intelligent alerts and evaluation</string>
+    <string name="next">Next</string>
+    <string name="coreValues2">monitor and secure all your assets at the comfort of your hands. Capture and Report intruders by just a click. How simple can it be</string>
+    <string name="mitigating_risk">Mitigating Risk</string>
+    <string name="finish">Finish</string>
+    <string name="response">Instant, effective response from security firm.</string>
+    <string name="flash_response">Flash Response</string>
+    <string name="report_crime">Report crime</string>
+    <string name="talk_to_us">Talk to us</string>
+    <string name="home">Home</string>
+    <string name="security_firm">Security Firm</string>
+    <string name="premise">Premise</string>
+    <string name="report">Report</string>
+    <string name="live_stream">Live Stream</string>
+    <string name="salama_dash">Salama Dash</string>
+    <string name="liveText">this is a live coverage of designated cameras in your premises</string>
+</resources>

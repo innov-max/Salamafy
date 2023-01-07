@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_nam">SALAMA</string>
+    <string name="live_stream">Live Stream</string>
+    <string name="salama_dash">Salama Dash</string>
+    <string name="liveText">this is a live coverage of designated cameras in your premises</string>
+</resources>

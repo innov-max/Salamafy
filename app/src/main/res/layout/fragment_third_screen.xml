@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/splash_screen_layout"
+    tools:context=".fragments.firstScreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="70dp"
+        app:lottie_rawRes="@raw/cop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="@string/flash_response"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+
+        android:text="@string/response"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|normal"
+        android:layout_marginTop="160dp"
+        android:text="@string/finish"
+        android:layout_marginStart="240dp"/>
+
+
+
+
+</LinearLayout>

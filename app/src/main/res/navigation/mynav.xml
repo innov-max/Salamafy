@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.salama.fragments.welcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_firstScreen"
+            app:destination="@id/firstScreen" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_home22"
+            app:destination="@id/home" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstScreen"
+        android:name="com.example.salama.fragments.firstScreen"
+        android:label="fragment_second_screen"
+        tools:layout="@layout/fragment_first_screen" >
+        <action
+            android:id="@+id/action_firstScreen_to_secondScreen"
+            app:destination="@id/secondScreen" />
+    </fragment>
+    <activity
+        android:id="@+id/splash_Activity"
+        android:name="com.example.salama.splash_Activity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <fragment
+        android:id="@+id/secondScreen"
+        android:name="com.example.salama.fragments.secondScreen"
+        android:label="secondScreen"
+        tools:layout="@layout/fragment_second_screen">
+        <action
+            android:id="@+id/action_secondScreen_to_thirdScreen2"
+            app:destination="@id/thirdScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.salama.fragments.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/thirdScreen"
+        android:name="com.example.salama.fragments.thirdScreen"
+        android:label="thirdScreen"
+        tools:layout="@layout/fragment_third_screen">
+        <action
+            android:id="@+id/action_thirdScreen_to_home22"
+            app:destination="@id/home" />
+    </fragment>
+</navigation>
